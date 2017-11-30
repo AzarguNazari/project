@@ -1,16 +1,151 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
+<!--<html xmlns="http://www.w3.org/1999/xhtml">-->
 <html>
     <head>
-        <title>TODO supply a title</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Final Project</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css' />
+        <link href="css/main.css" media="screen" rel="stylesheet" type="text/css" />
+        <link href="iconic.css" media="screen" rel="stylesheet" type="text/css" />
+
     </head>
+
+
     <body>
-        <div>TODO write content</div>
+        <div class="wrap">
+
+            <nav>
+                <ul class="menu">
+                    <li><a href="#"><span class="iconic home"></span> Home</a></li>
+                    <li><a href="#"><span class="iconic plus-alt"></span> About</a>
+                        <ul>
+                            <li><a href="#">Company History</a></li>
+                            <li><a href="#">Meet the team</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#"><span class="iconic magnifying-glass"></span> Services</a>
+                        <ul>
+                            <li><a href="#">Web Design</a></li>
+                            <li><a href="#">App Development</a></li>
+                            <li><a href="#">Email Campaigns</a></li>
+                            <li><a href="#">Copyrighting</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#"><span class="iconic map-pin"></span> Products</a>
+                        <ul>
+                            <li><a href="#">Widget One</a></li>
+                            <li><a href="#">Widget Two</a></li>
+                            <li><a href="#">Web App Three</a></li>
+                            <li><a href="#">Web App Four</a></li>
+                            <li><a href="#">Crazy Products</a></li>
+                            <li><a href="#">iPhone Apps</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#"><span class="iconic mail"></span> Contact</a>
+                        <ul>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Directions</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="clearfix"></div>
+            </nav>
+        </div>
+
+        <!-- / My brand -->
+        <div class='brand'>
+            <a href='https://www.jamiecoulter.co.uk' target='_blank'>
+                <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/logo.png' />
+            </a>
+        </div>
+        <!-- / Begin Body -->
+        <div class='swanky'>
+            <!-- / Introduction Block -->
+            <!-- /////////// Begin Dropdown //////////// -->
+            <div class='swanky_wrapper'>
+                <input id='Dashboard' name='radio' type='radio'>
+                <label for='Dashboard'>
+                    <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/dash.png'>
+                    <span>Dashboard</span>
+                    <div class='lil_arrow'></div>
+                    <div class='bar'></div>
+                    <div class='swanky_wrapper__content'>
+                        <ul>
+                            <li>Tools</li>
+                            <li>Reports</li>
+                            <li>Analytics</li>
+                            <li>Code Blocks</li>
+                        </ul>
+                    </div>
+                </label>
+                <input id='Sales' name='radio' type='radio'>
+                <label for='Sales'>
+                    <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/del.png'>
+                    <span>Sales</span>
+                    <div class='lil_arrow'></div>
+                    <div class='bar'></div>
+                    <div class='swanky_wrapper__content'>
+                        <ul>
+                            <li>New Sales</li>
+                            <li>Expired Sales</li>
+                            <li>Sales Reports</li>
+                            <li>Deliveries</li>
+                        </ul>
+                    </div>
+                </label>
+                <input id='Messages' name='radio' type='radio'>
+                <label for='Messages'>
+                    <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/mess.png'>
+                    <span>Messages</span>
+                    <div class='lil_arrow'></div>
+                    <div class='bar'></div>
+                    <div class='swanky_wrapper__content'>
+                        <ul>
+                            <li>Inbox</li>
+                            <li>Outbox</li>
+                            <li>Sent</li>
+                            <li>Archived</li>
+                        </ul>
+                    </div>
+                </label>
+                <input id='Users' name='radio' type='radio'>
+                <label for='Users'>
+                    <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/users.png'>
+                    <span>Users</span>
+                    <div class='lil_arrow'></div>
+                    <div class='bar'></div>
+                    <div class='swanky_wrapper__content'>
+                        <ul>
+                            <li>New User</li>
+                            <li>User Groups</li>
+                            <li>Permissions</li>
+                            <li>Passwords</li>
+                        </ul>
+                    </div>
+                </label>
+                <input id='Settings' radio='radio' type='radio'>
+                <label for='Settings'>
+                    <img src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/set.png'>
+                    <span>Settings</span>
+                    <div class='lil_arrow'></div>
+                    <div class='swanky_wrapper__content'>
+                        <ul>
+                            <li>Databases</li>
+                            <li>Design</li>
+                            <li>Change User</li>
+                            <li>Log Out</li>
+                        </ul>
+                    </div>
+                </label>
+            </div>
+            <!-- /////////// End Dropdown //////////// -->
+        </div>
+        <!-- / My Footer -->
+        <div class='love'>
+            <p>Made with <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/love_copy.png" /> by <a href='https://www.jamiecoulter.co.uk' target='_blank'> Jcoulterdesign </a></p>
+        </div>
+
     </body>
+
 </html>
